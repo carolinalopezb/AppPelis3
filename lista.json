@@ -1,0 +1,25 @@
+[
+    {
+        "nombre": "El Padrino",
+        "genero": "Magia" ,
+        "edad": "+18",
+        "duracion": "175 min"
+    },
+    {
+        "nombre": "It",
+        "genero": "Terror" ,
+        "edad": "+18",
+        "duracion": "146 min"
+    },
+    {
+        "nombre": "Casa Blanca",
+        "genero": "Drama" ,
+        "edad": "+16",
+        "duracion": "102 min"
+    },    {
+        "nombre": "Toy Story 4",
+        "genero": "Aventura" ,
+        "edad": "ATP",
+        "duracion": "100 min"
+    },
+] 
