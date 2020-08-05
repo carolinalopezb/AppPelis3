@@ -11,12 +11,12 @@ function showPelis(array){
         contenido += "Duración: " + lista.duracion + "<br>";
         contenido += "<br><hr><br>"
 
-        document.getElementById("lista").innerHTML
+        document.getElementById("lista").innerHTML = contenido;
     }
 }
 
-document.addEventListener "DOMContentLoaded", function(e){
-    getJSONData(PELIS_URL).then function(resultObj){
+document.addEventListener ("DOMContentLoaded", function(e){
+    getJSONData(PELIS_URL).then (function(resultObj){
         if (resultObj.status === "ok") {
             pelisArray = resultObj.data;
             showPelis(pelisArray);

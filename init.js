@@ -1,4 +1,4 @@
-const PELIS_URL = https://carolinalopezb.github.io/AppPelis3/;
+const PELIS_URL = "https://carolinalopezb.github.io/AppPelis3/lista.json" ;
 
 
 var getJSONData = function (url) {
